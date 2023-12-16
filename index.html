@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<!-- INVISIBLE -->
+<div class="invisible">
+  <!-- HEADER -->
+  <header>
+    <h1>Driving Theory</h1>
+  </header>
+
+  <!-- MAIN PAGE -->
+  <div class="container">
+    <div id="principal">
+      <section class="title">
+        <h2>Click to start driving school</h2>
+      </section>
+      <section class="interaction">
+        <button id="startButton">Start</button>
+      </section>
+    </div>
+
+    <!-- QUESTIONS PAGE -->
+    <div class="question">
+      <h2 id="questionInfoText">Question: </h2>
+      <img src="" id="questionImage" alt="">
+      <p id="questionText"></p>
+      <ul id="choices">
+        <li><button class="choice">Choice 1</button></li>
+        <li><button class="choice">Choice 2</button></li>
+        <li><button class="choice">Choice 3</button></li>
+        <li><button class="choice">Choice 4</button></li>
+      </ul>
+    </div>
+
+    <!-- RESULT PAGE -->
+
+    <div class="finish">
+      <h2 id="finishText">Answer</h2>
+      <p id="finishInfoText"></p>
+    </div>
+  </div>
+
+  <footer>
+    <h3>Developed by <a href="https://github.com/Sithey/Driving-Theory" target="_blank">Sithey</a> - <a href="https://www.sharpheberg.com/en/" target="_blank">https://www.sharpheberg.com/en/</a></h3>
+  </footer>
+
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
